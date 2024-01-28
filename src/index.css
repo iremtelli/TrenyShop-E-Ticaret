@@ -1,13 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Nunito:wght@200&family=Poppins:wght@500;700&family=Roboto:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Nunito", sans-serif;
+}
+.paginate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  height: 100px;
 }
